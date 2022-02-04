@@ -1,0 +1,185 @@
+{
+  "sheetsById": {
+    "Bouncing box": {
+      "staticOverrides": {
+        "byObject": {}
+      },
+      "sequence": {
+        "subUnitsPerUnit": 30,
+        "length": 2,
+        "type": "PositionalSequence",
+        "tracksByObject": {
+          "Box": {
+            "trackData": {
+              "OwnAfhlQ3k": {
+                "type": "BasicKeyframedTrack",
+                "keyframes": [
+                  {
+                    "id": "HTufDrUNs7",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [0.5, 1, 0.5, 0],
+                    "value": 200
+                  },
+                  {
+                    "id": "w0Pu1m03nx",
+                    "position": 0.8,
+                    "connectedRight": true,
+                    "handles": [
+                      0.8905612931061763, 0.5132563496794308, 0.4174309445388951, -2.64126527082045
+                    ],
+                    "value": 0
+                  },
+                  {
+                    "id": "Z-11TYA01c",
+                    "position": 1.233,
+                    "connectedRight": true,
+                    "handles": [0.5, -2.8417947839825377, 0.09827845288108433, 0.5455394361463086],
+                    "value": 0
+                  },
+                  {
+                    "id": "1GVnk2cV0M",
+                    "position": 2,
+                    "connectedRight": true,
+                    "handles": [0.5, 1, 0.5, 0],
+                    "value": 200
+                  }
+                ]
+              },
+              "teyAbOOfiV": {
+                "type": "BasicKeyframedTrack",
+                "keyframes": [
+                  {
+                    "id": "lGs36tjUPQ",
+                    "position": 0.7,
+                    "connectedRight": true,
+                    "handles": [0.5, 1, 0.5, 0],
+                    "value": 1
+                  },
+                  {
+                    "id": "5IrBkldCuE",
+                    "position": 1,
+                    "connectedRight": true,
+                    "handles": [0.5, 1, 0.5, 0],
+                    "value": 0.5
+                  },
+                  {
+                    "id": "gg5t7Jnqj3",
+                    "position": 1.333,
+                    "connectedRight": true,
+                    "handles": [
+                      0.3427964529659444, 0.5806451612903226, 0.1370118247738759,
+                      -0.3870967741935484
+                    ],
+                    "value": 1.5
+                  },
+                  {
+                    "id": "URL0IQUXh3",
+                    "position": 2,
+                    "connectedRight": true,
+                    "handles": [0.2841691931087911, 0.922996878251821, 0.5, 0],
+                    "value": 1
+                  }
+                ]
+              }
+            },
+            "trackIdByPropPath": {
+              "[\"y\"]": "OwnAfhlQ3k",
+              "[\"stretch\"]": "teyAbOOfiV"
+            }
+          },
+          "Dust": {
+            "trackData": {
+              "xGIhS6tatF": {
+                "type": "BasicKeyframedTrack",
+                "keyframes": [
+                  {
+                    "id": "nhWfL3dtrB",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [0.5, 1, 0.5, 0],
+                    "value": 0
+                  },
+                  {
+                    "id": "9GQe3dsCUq",
+                    "position": 0.7,
+                    "connectedRight": true,
+                    "handles": [0.5, 1, 0.5, 0],
+                    "value": 0.1
+                  },
+                  {
+                    "id": "OpgrOWjlgQ",
+                    "position": 1.2,
+                    "connectedRight": true,
+                    "handles": [0.5, 1, 0.5, 0],
+                    "value": 0.3
+                  },
+                  {
+                    "id": "O9Bygkv0C8",
+                    "position": 1.5,
+                    "connectedRight": true,
+                    "handles": [0.5, 1, 0.5, 0],
+                    "value": 0
+                  },
+                  {
+                    "id": "4qGGzi6VsS",
+                    "position": 2,
+                    "connectedRight": true,
+                    "handles": [0.5, 1, 0.5, 0],
+                    "value": 0
+                  }
+                ]
+              },
+              "fiLNDqwAAw": {
+                "type": "BasicKeyframedTrack",
+                "keyframes": [
+                  {
+                    "id": "OHNFGIqpFH",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [0.5, 1, 0.5, 0],
+                    "value": 0
+                  },
+                  {
+                    "id": "UkIg4u1LbP",
+                    "position": 0.633,
+                    "connectedRight": true,
+                    "handles": [0.5550894869715106, 0.7053571428571428, 0.5, 0.13392857142857137],
+                    "value": 1
+                  },
+                  {
+                    "id": "U3RiFqNYD0",
+                    "position": 0.833,
+                    "connectedRight": true,
+                    "handles": [0.6609460550136904, 0.6517857142857143, 0.5, 0],
+                    "value": 1.5
+                  },
+                  {
+                    "id": "TTaT9pssfK",
+                    "position": 1.133,
+                    "connectedRight": true,
+                    "handles": [0.5, 1, 0.5268243425022817, -0.9320388349514562],
+                    "value": 0.9598214285714286
+                  },
+                  {
+                    "id": "QE9WUphx_U",
+                    "position": 1.333,
+                    "connectedRight": true,
+                    "handles": [0.7280069112693948, 2.1067961165048543, 0.5, 0],
+                    "value": 0.6131094276302755
+                  }
+                ]
+              }
+            },
+            "trackIdByPropPath": {
+              "[\"opacity\"]": "xGIhS6tatF",
+              "[\"scaleX\"]": "fiLNDqwAAw"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitionVersion": "0.4.0",
+  "revisionHistory": ["_QtWMhmVGJqEccHW", "p_ag95IwnGNnv160"]
+}
