@@ -22,7 +22,7 @@
   }
 
   .box {
-    width: var(--box-size);
+    width: calc(var(--box-size) / 2);
     height: var(--box-size);
     background: #eee;
     transform-origin: center bottom;
@@ -32,10 +32,13 @@
     position: absolute;
     left: 0;
     right: 0;
-    height: 3px;
-    border-radius: 2px;
-    bottom: 0px;
-    background-color: #ccc;
+    height: 5px;
+    width: calc(var(--box-size) / 2);
+    border-radius: 50%;
+    bottom: -100px;
+    /* background-color: #ccc; */
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.2);
   }
 </style>
 <div id="space"></div>

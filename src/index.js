@@ -1,6 +1,8 @@
 import { getProject, types as t } from '@theatre/core';
 import state from './state.json';
+// import studio from '@theatre/studio';
 
+// studio.initialize();
 const proj = getProject('Test', { state });
 
 const nudgableNumber = t.number(1, { nudgeMultiplier: 0.01 });
@@ -20,9 +22,11 @@ function makeBouncingBox(i) {
   const boxDiv = document.createElement('div');
   boxDiv.className = 'box';
   boxContainer.appendChild(boxDiv);
+
   boxDiv.addEventListener('click', () => {
-    sheet.sequence.play({ iterationCount: Infinity });
+    sheet.sequence.play({ rate: 2, iterationCount: 1 });
   });
+
   boxObj.onValuesChange(({ y, stretch }) => {
     boxDiv.style.transform = `translateY(${-y}px) scale(${1 / stretch}, ${stretch})`;
   });
@@ -33,12 +37,12 @@ function makeBouncingBox(i) {
 
   const dustObj = sheet.object('Dust', {
     opacity: nudgableNumber,
-    scaleX: nudgableNumber,
+    scale: nudgableNumber,
   });
 
-  dustObj.onValuesChange(({ opacity, scaleX }) => {
+  dustObj.onValuesChange(({ opacity, scale }) => {
     dustDiv.style.opacity = String(opacity);
-    dustDiv.style.transform = `scaleX(${scaleX})`;
+    dustDiv.style.transform = `scale(${scale})`;
   });
 }
 
